@@ -16,3 +16,18 @@ print("Die1 rolled a:", die1, "\nDie2 rolled a:", die2, "\nFor a Total of:", tot
 
 #input fx
 input("\nPress the 'enter' key to exit.")
+
+
+#Password
+#Demonstrates the 'if' statement
+
+#print fx and user input for 'password'
+print("Welcome to System Security, Inc.\n")
+password = input("Enter the password you'd like to use: ")
+
+#password string match check to 'secret'
+if password == "secret":
+  print("Access Granted")
+  
+#user input to exit the program 
+input("\nPress the 'enter' key to exit.")
