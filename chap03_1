@@ -1,0 +1,18 @@
+
+#Craps roller
+#demonstrates random number generation
+
+import random
+
+#generate random numbers 1-6
+die1 = random.randint(1,6)
+die2 = random.randrange(6) + 1
+
+#sum 2 var's
+total = die1 + die2
+
+#print fx
+print("Die1 rolled a:", die1, "\nDie2 rolled a:", die2, "\nFor a Total of:", total, "\n")
+
+#input fx
+input("\nPress the 'enter' key to exit.")
